@@ -1,0 +1,38 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Qt-specific files
+*.moc
+*.ui
+Makefile*
+moc_*.cpp
+qrc_*.cpp
+
+# Generated files
+build-*/
+
+# Generated CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Generated qmake files
+*.pro.user
+*.qmake.stash
+
+# IDE files
+*.creator.user
+*.user
+*.autosave
+*.pro.user.*
+
+# Debug files
+debug.log
+core
+*.core
+
+# macOS specific files
+.DS_Store
